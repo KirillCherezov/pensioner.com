@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+body {
+	background-image: url(https://www.bakercommunications.com/images/pattern-icons/1.png);
+}
+header {
+	display: flex;
+	height: 100px;
+	align-items: center;
+	background-color: #99ff99;
+}
+.logo h {
+	font-weight: 700;
+}
+.konch {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	height: 100px;
+	align-items: center;
+}
+.menu {
+	display: flex;
+}
+.el {
+	width: 150px;
+}
+.el:hover {
+	font-weight: 700;
+}
+main {
+	width: 90%;
+	height: 70vh;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.95);
+	display: flex;
+}
+main p {
+	font-size: 20px;
+	margin: 15px;
+}
+.m1 {
+	margin: 15px;
+	height: 400px;
+	width: 600px;
+}
+footer {
+	width: 90%;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.95);
+}
+footer h2 {
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+.cit h2 {
+	text-align: right;
+	margin: 20px;
+}
